@@ -67,12 +67,12 @@
 
 
 <!-- BEGIN PAGE CONTAINER -->
-<div class="page-container pre-reg">
+<div class="page-container">
 
     <!-- BEGIN CONTAINER -->
     <div class="container min-height margin-top-50 col-md-12">
         <div class="center" >
-            <h1>Grants to Connect Tools and Services for an Open Science</h1><p>
+            <h1>Grants to Connect Tools and Services for an Open Science</h1>
         </div>
         
         <div class="col-md-12 margin-top-50  margin-bottom-30">
@@ -92,21 +92,21 @@
                 <p><a href="https://docs.google.com/forms/d/1h2T_So_f52nGpA8SH2RnywgztoOyca533O9sf9K42HQ/viewform">Apply now</a></p>
             </div>
             
-            <table data-url="/static/data1.json" data-height="299" data-sort-name="name" data-sort-order="desc">
+            <table class="sortable">
                 <thead>
                     <tr>
-                        <th data-field="id" data-align="right" data-sortable="true">Item ID</th>
-                        <th data-field="name" data-align="center" data-sortable="true">Item Name</th>
-                        <th data-field="price" data-sortable="true">Item Price</th>
+                        <th>Item ID</th>
+                        <th>Item Name</th>
+                        <th>Item Price</th>
                     </tr>
                 </thead>
+                <tbody>
+                    <tr>One</tr>
+                    <tr>Two</tr>
+                    <tr>Three</tr>
+                </tbody>
             </table>
             
-        </div>
-        
-            <script type='text/javascript' src='//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js'></script><script type='text/javascript'>(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='MMERGE3';ftypes[3]='text';fnames[4]='MMERGE4';ftypes[4]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script>
-            <!--End mc_embed_signup-->
-
         </div>
 
     </div>
@@ -116,14 +116,7 @@
 <!-- BEGIN PAGE LEVEL JAVASCRIPTS(REQUIRED ONLY FOR CURRENT PAGE) -->
 <%def name="javascript_bottom()">
 
-
-    <script type="text/javascript" src="assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>
-    <script src="assets/scripts/app.js"></script>
+     <script src="../static/plugins/sorttable.js"></script>
      <script src="../static/plugins/bootstrap/js/bootstrap-table.js"></script>
-    <script type="text/javascript">
-        jQuery(document).ready(function() {
-            App.init();
-        });
-    </script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
