@@ -10,57 +10,6 @@
 
     <!-- BEGIN PAGE LEVEL PLUGIN STYLES -->
     <link href="../static/plugins/fancybox/source/jquery.fancybox.css" rel="stylesheet" />
-    <link href="//cdn-images.mailchimp.com/embedcode/classic-081711.css" rel="stylesheet" type="text/css">
-    <link href="../static/plugins/bootstrap/css/bootstrap-table.css" rel="stylesheet" >
-    <style type="text/css">
-        #mc_embed_signup{
-            background:#e7f5fc;
-            clear:left;
-            font:14px 'Open Sans';
-            margin-bottom: 30px;
-        }
-        #mc_embed_signup form {
-            padding: 5px;
-        }
-
-        #mc_embed_signup_scroll .prereg-sign-up {
-            padding: 15px;
-            background-color: #2f89af;
-            padding: 15px;
-            color: white;
-        }
-
-        #mc_embed_signup h2 {
-
-            color: white;
-            margin-top: 0px;
-            margin-bottom: 0px;
-            font-weight: 400;
-            font-size: 21px;
-        }
-
-        div.mc-field-group {
-            background-color: white;
-            padding: 3%;
-            margin-top: 2px;
-            margin-bottom: 2px;
-            width: 100% !important;
-        }
-
-        #mc_embed_signup input {
-            border: none;
-        }
-
-        #mc_embed_signup .button {
-            background-color: #2f89af;
-            display: block;
-            margin: 5px auto;
-        }
-
-        #mc_embed_signup div .mce_inline_error {
-            margin-bottom: 0px !important;
-        }
-    </style>
     <!-- END PAGE LEVEL PLUGIN STYLES -->
 
 </%def>
@@ -97,13 +46,12 @@
                     <tr>
                         <th>Item ID</th>
                         <th>Item Name</th>
-                        <th>Item Price</th>
                     </tr>
                 </thead>
                 <tbody>
-                    <tr>One</tr>
-                    <tr>Two</tr>
-                    <tr>Three</tr>
+                    <tr><td>A Molby</td><td>6,000</td></tr>
+                    <tr><td>B Molby</td><td>2,000</td></tr>
+                    <tr><td>C Molby</td><td>7,000</td></tr>
                 </tbody>
             </table>
             
@@ -117,6 +65,5 @@
 <%def name="javascript_bottom()">
 
      <script src="../static/plugins/sorttable.js"></script>
-     <script src="../static/plugins/bootstrap/js/bootstrap-table.js"></script>
     <!-- END PAGE LEVEL JAVASCRIPTS -->
 </%def>
