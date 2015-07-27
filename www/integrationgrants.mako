@@ -41,7 +41,7 @@
                 <p><a href="https://docs.google.com/forms/d/1h2T_So_f52nGpA8SH2RnywgztoOyca533O9sf9K42HQ/viewform">Apply now</a></p>
             </div>
             
-            <table class="sortable">
+            <table class="sortable table">
                 <thead>
                     <tr>
                         <th>Item ID</th>
